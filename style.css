@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 100vh; 
+    border: 20px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.googleIcon{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+}
+
+.searchBox{
+    height: 200px;
+    width: 100%;;
+    background-color: brown;
+}
+
+.emptyDiv{
+    height: 200px;
+    width: 100%;
+    background-color: darksalmon;
+}
+
+.boilerPlate{
+    height: 200px;
+    width: 100%;
+    background-color: deepskyblue;
+}
