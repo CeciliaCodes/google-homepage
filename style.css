@@ -19,13 +19,17 @@
     height: 200px;
     width: 100%;
     padding: 10px;
-    background-color: blue;
+    /* background-color: blue; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .searchBox{
     height: 200px;
     width: 100%;;
     background-color: brown;
+    text-align: center;
 }
 
 .emptyDiv{
@@ -41,8 +45,7 @@
 }
 
 #form{
-    width: auto;
-    max-width: 584px;
+    width: 584px;
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -59,12 +62,12 @@
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin:0 auto;
+    margin:10px auto;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
-    text-align: center;
     cursor: pointer;
     user-select: none;
+    display: inline-block;
 }
