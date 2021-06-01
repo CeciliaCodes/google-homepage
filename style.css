@@ -121,11 +121,14 @@ li a {
 }
 
 .footer{
- position: fixed;
+ position: absolute;
  left: 0;
  bottom: 0;
+ display: flex;
  width: 100%;
  background-color: #f8f9fa;
  color: #dfe1e5;
  padding:20px;
+ align-items: center;
+ justify-content: space-between;
 }
